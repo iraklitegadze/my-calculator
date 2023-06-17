@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    padding: 3rem;
+}
+
+input{
+    text-align: center;
+  
+}
+
+h1{
+    padding-top: 3rem;
+}
+form{
+    padding: 3rem;
+    max-width: 600px;
+    max-height: 400px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    border-radius: 4rem;
+   
+}
+input[type="submit"]{
+    cursor: pointer;
+}
+#result{
+    padding: 1rem;
+    border-radius: 3rem;
+    border: hidden;
+    max-width:70%;
+    margin-right: -1rem;
+}
+
+#first, #second , #operation{
+    border-radius: 1rem;
+    border: hidden;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width:375px) {
+    #result{
+       margin-left: -1rem;
+        padding: 1rem;
+        min-width: 200px;
+    }
+
+    body{
+        padding-top: 0.5rem;
+        overflow-y: hidden;
+    }
+    form{
+        margin-top: -2rem;
+    }
+
+    h1{
+        padding-top: 0;
+    }
+}
